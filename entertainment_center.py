@@ -10,37 +10,37 @@ from media import Movie, Episode, TvShow
 # Movie creation
 toy_story = Movie('Toy Story',
                   'A wonderful story of toys', 81,
-                  'http://upload.wikimedia.org/wikipedia/en/1/13/\
-                  Toy_Story.jpg',
+                  'http://upload.wikimedia.org/wikipedia/en/1/13/' +
+                  'Toy_Story.jpg',
                   'https://www.youtube.com/watch?v=KYz2wyBy3kc')
 
 avatar = Movie('Avatar',
                'A marine on an alien planet', 178,
-               'http://upload.wikimedia.org/wikipedia/en/b/b0/\
-               Avatar-Teaser-Poster.jpg',
+               'http://upload.wikimedia.org/wikipedia/en/b/b0/' +
+               'Avatar-Teaser-Poster.jpg',
                'https://www.youtube.com/watch?v=5PSNL1qE6VY')
 
 school_of_rock = Movie('School of Rock', 'Using rock music to learn', 109,
-                       'http://upload.wikimedia.org/wikipedia/en/1/11/\
-                       School_of_Rock_Poster.jpg',
+                       'http://upload.wikimedia.org/wikipedia/en/1/11/' +
+                       'School_of_Rock_Poster.jpg',
                        'https://www.youtube.com/watch?v=3PsUJFEBC74')
 
 ratatouille = Movie('Ratatouille',
                     'A rat that is a chef in Paris', 115,
-                    'http://upload.wikimedia.org/wikipedia/en/5/50/\
-                    RatatouillePoster.jpg',
+                    'http://upload.wikimedia.org/wikipedia/en/5/50/' +
+                    'RatatouillePoster.jpg',
                     'https://www.youtube.com/watch?=v=c3sBBRxDAqk')
 
 midnight_in_paris = Movie('Midnight in Paris',
                           'Going back in time to meet authors', 100,
-                          'http://upload.wikimedia.org/wikipedia/en/9/9f/\
-                          Midnight_in_Paris_Poster.jpg',
+                          'http://upload.wikimedia.org/wikipedia/en/9/9f/' +
+                          'Midnight_in_Paris_Poster.jpg',
                           'https://www.youtube.com/watch?v=BYRWfS2s2v4')
 
 hunger_games = Movie('Hunger Games',
                      'A real reality show', 123,
-                     'http://upload.wikimedia.org/wikipedia/en/4/42/\
-                     HungerGamesPoster.jpg',
+                     'http://upload.wikimedia.org/wikipedia/en/4/42/' +
+                     'HungerGamesPoster.jpg',
                      'https://www.youtube.com/watch?v=PbA63a7H0bo')
 
 # List of movies
@@ -78,16 +78,16 @@ breaking_bad_e2_s1 = Episode('Cats in the Bag',
 # TVShow creation (Title, Storyline, poster, trailer, station, episodes list)
 breaking_bad = TvShow('Breaking bad', 'The secret lifestyle of a chemistry \
                       teacher',
-                      'http://upload.wikimedia.org/wikipedia/commons/4/48/\
-                      Breaking_Bad_logo.png',
+                      'http://upload.wikimedia.org/wikipedia/commons/4/48/' +
+                      'Breaking_Bad_logo.png',
                       'AMC',
                       [breaking_bad_e1_s1, breaking_bad_e2_s1])
 
 
 modern_family = TvShow('Modern Family', 'A comedy that follows the lives of a \
                        peculiar family',
-                       'http://upload.wikimedia.org/wikipedia/en/5/53/\
-                       Modern_Family_Promo_Season_1.jpg',
+                       'http://upload.wikimedia.org/wikipedia/en/5/53/' +
+                       'Modern_Family_Promo_Season_1.jpg',
                        'ABC', [])
 
 # List of tv shows
